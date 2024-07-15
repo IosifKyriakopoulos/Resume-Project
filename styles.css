@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(15, 23, 42);
+  font-family: sans-serif;
+  color: #e2e8f0;
+  max-width: 30%;
+  font-weight: 500;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+a {
+  text-decoration: none;
+  color: #e2e8f0;
+}
+
+::selection {
+  background: #5fead5;
+  color: #12534d;
+}
+
+ul {
+  list-style: none;
+}
+
+li:before {
+  content: " ——— ";
+  margin-right: 10px;
+}
+
+li {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.left {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+div.right {
+  margin-right: 100px;
+  margin-top: 100px;
+}
